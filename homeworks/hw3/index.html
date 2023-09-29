@@ -1,52 +1,49 @@
+<!DOCTYPE html>
 <html>
 	<head>
-		<title>Fiddling with shapes</title>
-		<!-- What file should we link in this <head> tag? -->
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<!-- PROBLEM 0:
+		Link the CSS stylesheet called style.css found in the assets/css folder -->
+		<link rel="stylesheet" type= "text/css" href="assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/initial.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	</head>
-<body>
-	<div id="container">
-		<div id="first-row" class="row">
-			<div class="square"></div>
-			<div class="circle green"></div>
-			<div class="square"></div>
-			<div class="circle fancy"></div>
-			<div class="circle"></div>
+	<body>
+	<div id="content">
+		<div id="navbar">
+			<div class="navbar-item">Home</div>
+			<div class="navbar-item">Discover</div>
+			<div class="navbar-item">Profile</div>
 		</div>
-
-		<div id="second-row" class="row">
-			<div class="circle"></div>
-			<div class="square fancy"></div>
-			<div class="circle fancy"></div>
-			<div class="circle"></div>
-			<div class="circle fancy green"></div>
+		<div id="header">
+			<div id="profile-pic"><img src="assets/img/hw3pic.jpg"></div>
+			<div id="information">
+				<div id="username">Emily</div>
+				<div id="follow-button">+ Follow</div>
+				<div id="about">
+					Hi I like to cook, draw, and play league of legends.
+				</div>
+			</div>
 		</div>
-
-		<div id="third-row" class="row">
-			<div class="circle"></div>
-			<div class="circle green"></div>
-			<div class="circle"></div>
-			<div class="square fancy"></div>
-			<div class="square"></div>
+		<div id="pictures">
+			<div class="row">
+				<div class="item"><img src="assets/img/img1.jpg"></div>
+				<div class="item"><img src="assets/img/img2.jpg"></div>
+				<div class="item"><img src="assets/img/img3.jpg"></div>
+			</div>
+			<div class="row">
+				<div class="item"><img src="assets/img/img4.jpg"></div>
+				<div class="item"><img src="assets/img/img5.jpg"></div>
+				<div class="item"><img src="assets/img/img6.jpg"></div>
+			</div>
+			<div class="row">
+				<div class="item"><img src="assets/img/img7.jpg"></div>
+				<div class="item"><img src="assets/img/img8.jpg"></div>
+				<div class="item"><img src="assets/img/img9.jpg"></div>
+			</div>
 		</div>
-
-		<div id="fourth-row" class="row">
-			<div class="square"></div>
-			<div class="circle"></div>
-			<div class="circle fancy"></div>
-			<div class="circle"></div>
-			<div class="circle"></div>
-		</div>
-
-		<div id="fifth-row" class="row">
-			<div class="circle"></div>
-			<div class="circle fancy"></div>
-			<div class="circle"></div>
-			<div class="square"></div>
-			<div class="circle green"></div>
-		</div>
-
-		<li><a href="wireframes.html">Click to view wireframe responses</a></li>
 	</div>
-</body>
+	<a href="design_responses.html" id="design">Click to view design responses</a>
+	</body>
 </html>
